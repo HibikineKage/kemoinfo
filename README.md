@@ -20,11 +20,17 @@ type User {
   email: String
   links: [Link!]
 }
+
 type Fursuit {
   fursuitId: ID!
   name: String!
   birthday: Date
 }
+
+type Photos {
+  URL: URL!
+}
+
 type Link {
   user: User!
   type: String!
