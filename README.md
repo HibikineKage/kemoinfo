@@ -36,6 +36,9 @@ type Link {
   type: String!
   value: String!
 }
+
+schema {
+}
 ```
 
 ## DB
